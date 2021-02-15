@@ -1,6 +1,6 @@
-package com.msc.securiy.user.repository;
+package com.msc.security.user.repository;
 
-import com.msc.securiy.user.domain.User;
+import com.msc.security.user.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

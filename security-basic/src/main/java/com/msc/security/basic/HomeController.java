@@ -22,6 +22,6 @@ public class HomeController {
         if(error){
             model.addAttribute("errorMessage", "아이디나 패스워드가 올바르지 않습니다.");
         }
-        return "login";
+        return "loginForm";
     }
 }

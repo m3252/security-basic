@@ -1,15 +1,12 @@
-package com.msc.securiy.user.service;
+package com.msc.security.user.service;
 
-import com.mongodb.MongoWriteException;
-import com.msc.securiy.user.domain.Authority;
-import com.msc.securiy.user.domain.User;
-import com.msc.securiy.user.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
+import com.msc.security.user.domain.Authority;
+import com.msc.security.user.domain.User;
+import com.msc.security.user.repository.UserRepository;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.index.Index;
-import org.springframework.data.mongodb.core.index.IndexDefinition;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;

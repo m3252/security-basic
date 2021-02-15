@@ -1,8 +1,8 @@
-package com.msc.securiy.user;
+package com.msc.security.user;
 
-import com.msc.securiy.user.domain.Authority;
-import com.msc.securiy.user.domain.User;
-import com.msc.securiy.user.service.UserService;
+import com.msc.security.user.service.UserService;
+import com.msc.security.user.domain.Authority;
+import com.msc.security.user.domain.User;
 import lombok.AllArgsConstructor;
 import org.springframework.dao.DuplicateKeyException;
 

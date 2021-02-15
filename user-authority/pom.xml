@@ -7,7 +7,7 @@
         <artifactId>spring-boot-dependencies</artifactId>
         <version>2.4.2</version>
     </parent>
-    <groupId>com.msc.securiy</groupId>
+    <groupId>com.msc.security</groupId>
     <artifactId>user-authority</artifactId>
     <version>1.0.0</version>
     <name>user-authority</name>

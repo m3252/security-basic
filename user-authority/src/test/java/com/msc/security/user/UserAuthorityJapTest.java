@@ -1,10 +1,9 @@
-package com.msc.securiy.user;
+package com.msc.security.user;
 
-import com.mongodb.MongoWriteException;
-import com.msc.securiy.user.domain.Authority;
-import com.msc.securiy.user.domain.User;
-import com.msc.securiy.user.repository.UserRepository;
-import com.msc.securiy.user.service.UserService;
+import com.msc.security.user.service.UserService;
+import com.msc.security.user.domain.Authority;
+import com.msc.security.user.domain.User;
+import com.msc.security.user.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,11 +11,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 @DataMongoTest
 public class UserAuthorityJapTest {
