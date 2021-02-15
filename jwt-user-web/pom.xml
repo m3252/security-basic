@@ -56,6 +56,11 @@
             <artifactId>java-jwt</artifactId>
             <version>3.12.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.msc.security</groupId>
+            <artifactId>user-authority</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

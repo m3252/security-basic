@@ -12,7 +12,7 @@ spring:
     driver-class-name: org.h2.Driver
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     properties:
       hibernate:
         format-sql: true
@@ -22,6 +22,6 @@ logging.level:
 
 sp:
   jwt:
-    secret: product-secret
-    token-life-time: 600
+    secret: test-secret
+    token-life-time: 300
     token-refresh-time: 86400
