@@ -1,4 +1,4 @@
-package com.msc.securiy.user.domain;
+package com.msc.security.user.domain;
 
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
