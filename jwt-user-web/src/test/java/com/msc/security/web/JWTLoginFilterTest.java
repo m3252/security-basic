@@ -35,7 +35,7 @@ public class JWTLoginFilterTest {
         return new URI(format("http://localhost:%d%s", port, path));
     }
 
-    @DisplayName("1. jwt 로 로그이을 시도한다.")
+    @DisplayName("1. jwt 로 로그인을 시도한다.")
     @Test
     void test_1() throws URISyntaxException {
         UserLogin userLogin = UserLogin.builder()
